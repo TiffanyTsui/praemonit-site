@@ -17,7 +17,7 @@ static = (LOGO / "pest-radar-stacked-dark.svg").read_text(encoding="utf-8")
 # the two inline SVGs must not share ids
 static = re.sub(r'id="([^"]+)"', r'id="s-\1"', static)
 static = re.sub(r'url\(#([^)]+)\)', r'url(#s-\1)', static)
-label = 'role="img" aria-label="Pest Radar by Praemonit"'
+label = 'role="img" aria-label="PestRadar by Praemonit"'
 animated = animated.replace("<svg ", f'<svg class="logo moving" {label} ', 1)
 static = static.replace("<svg ", f'<svg class="logo still" {label} ', 1)
 
@@ -41,13 +41,13 @@ HTML = f"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Praemonit — Pest Radar</title>
-<meta name="description" content="Pest Radar by Praemonit is designed to identify changes in pest populations before they become apparent.">
+<title>Praemonit — PestRadar</title>
+<meta name="description" content="PestRadar by Praemonit is designed to identify changes in pest populations before they become apparent.">
 <meta name="theme-color" content="#010101">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta property="og:title" content="Praemonit — Pest Radar">
+<meta property="og:title" content="Praemonit — PestRadar">
 <meta property="og:description" content="Identifying changes in pest populations before they become apparent.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://praemonit.com/">
@@ -59,8 +59,8 @@ HTML = f"""<!doctype html>
 {animated}
 {static}
 <h1>Forewarned is forearmed.</h1>
-<p>Pest Radar is designed to identify changes in pest populations before they become apparent, providing early warning and proactive management.</p>
-<p lang="nl">Pest Radar is ontworpen om veranderingen in plaagpopulaties te herkennen voordat ze zichtbaar worden, waardoor je vroegtijdig gewaarschuwd wordt en proactief kunt ingrijpen.</p>
+<p>PestRadar is designed to identify changes in pest populations before they become apparent, providing early warning and proactive management.</p>
+<p lang="nl">PestRadar is ontworpen om veranderingen in plaagpopulaties te herkennen voordat ze zichtbaar worden, waardoor je vroegtijdig gewaarschuwd wordt en proactief kunt ingrijpen.</p>
 </main>
 </body>
 </html>
