@@ -32,8 +32,8 @@ main{flex:1;display:flex;flex-direction:column;align-items:center;justify-conten
 .still{display:none}
 @media (prefers-reduced-motion:reduce){.moving{display:none}.still{display:block}}
 h1{font-size:clamp(22px,3.4vw,30px);font-weight:600;letter-spacing:.01em;margin:44px 0 10px}
-p{margin:0 auto;max-width:34em;color:#B9BABA}
-p + p{margin-top:6px}
+p{margin:0 auto;max-width:38em;color:#B9BABA}
+p + p{margin-top:16px}
 footer{padding:22px 24px 28px;text-align:center;font-size:13px;color:#8F9090}
 """
 
@@ -43,13 +43,13 @@ HTML = f"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Praemonit — Pest Radar</title>
-<meta name="description" content="Pest Radar by Praemonit gives greenhouse growers a week's warning of pests such as thrips.">
+<meta name="description" content="Pest Radar by Praemonit is designed to identify changes in pest populations before they become apparent.">
 <meta name="theme-color" content="#010101">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta property="og:title" content="Praemonit — Pest Radar">
-<meta property="og:description" content="A week's warning of pests in the greenhouse.">
+<meta property="og:description" content="Identifying changes in pest populations before they become apparent.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://praemonit.com/">
 <meta property="og:image" content="https://praemonit.com/og.png">
@@ -60,8 +60,8 @@ HTML = f"""<!doctype html>
 {animated}
 {static}
 <h1>Forewarned is forearmed.</h1>
-<p>Pest Radar gives greenhouse growers a week's warning of pests such as thrips.</p>
-<p lang="nl">Pest Radar waarschuwt glastuinders een week vooruit voor plagen als trips.</p>
+<p>Pest Radar is designed to identify changes in pest populations before they become apparent, providing early warning and proactive management. Since September, the forecast has been documented on a weekly basis at a chrysanthemum grower in Westland, and subsequently verified against subsequent counts.</p>
+<p lang="nl">Pest Radar is ontworpen om veranderingen in ongediertepopulaties te herkennen voordat ze zichtbaar worden, waardoor je vroegtijdig gewaarschuwd wordt en proactief kunt ingrijpen. Sinds september wordt de voorspelling wekelijks vastgelegd bij een chrysantenteler in Westland, en daarna vergeleken met latere tellingen.</p>
 </main>
 <footer>Praemonit is a brand of Springtide Strategy B.V., the Netherlands · KvK 67466028</footer>
 </body>
