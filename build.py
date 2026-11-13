@@ -60,7 +60,7 @@ HTML = f"""<!doctype html>
 {static}
 <h1>Forewarned is forearmed.</h1>
 <p>Pest Radar is designed to identify changes in pest populations before they become apparent, providing early warning and proactive management.</p>
-<p lang="nl">Pest Radar is ontworpen om veranderingen in ongediertepopulaties te herkennen voordat ze zichtbaar worden, waardoor je vroegtijdig gewaarschuwd wordt en proactief kunt ingrijpen.</p>
+<p lang="nl">Pest Radar is ontworpen om veranderingen in plaagpopulaties te herkennen voordat ze zichtbaar worden, waardoor je vroegtijdig gewaarschuwd wordt en proactief kunt ingrijpen.</p>
 </main>
 </body>
 </html>
