@@ -34,7 +34,6 @@ main{flex:1;display:flex;flex-direction:column;align-items:center;justify-conten
 h1{font-size:clamp(22px,3.4vw,30px);font-weight:600;letter-spacing:.01em;margin:44px 0 10px}
 p{margin:0 auto;max-width:38em;color:#B9BABA}
 p + p{margin-top:16px}
-footer{padding:22px 24px 28px;text-align:center;font-size:13px;color:#8F9090}
 """
 
 HTML = f"""<!doctype html>
@@ -60,10 +59,9 @@ HTML = f"""<!doctype html>
 {animated}
 {static}
 <h1>Forewarned is forearmed.</h1>
-<p>Pest Radar is designed to identify changes in pest populations before they become apparent, providing early warning and proactive management. Since September, the forecast has been documented on a weekly basis at a chrysanthemum grower in Westland, and subsequently verified against subsequent counts.</p>
-<p lang="nl">Pest Radar is ontworpen om veranderingen in ongediertepopulaties te herkennen voordat ze zichtbaar worden, waardoor je vroegtijdig gewaarschuwd wordt en proactief kunt ingrijpen. Sinds september wordt de voorspelling wekelijks vastgelegd bij een chrysantenteler in Westland, en daarna vergeleken met latere tellingen.</p>
+<p>Pest Radar is designed to identify changes in pest populations before they become apparent, providing early warning and proactive management.</p>
+<p lang="nl">Pest Radar is ontworpen om veranderingen in ongediertepopulaties te herkennen voordat ze zichtbaar worden, waardoor je vroegtijdig gewaarschuwd wordt en proactief kunt ingrijpen.</p>
 </main>
-<footer>Praemonit is a brand of Springtide Strategy B.V., the Netherlands · KvK 67466028</footer>
 </body>
 </html>
 """

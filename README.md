@@ -1,6 +1,6 @@
 # praemonit-site
 
-The holding page for **praemonit.com**: the animated *Pest Radar by Præmonit* lockup on field black, one line in English and Dutch, and the company line.
+The holding page for **praemonit.com**: the animated *Pest Radar by Præmonit* lockup on field black, and one generic sentence in English and Dutch. No company line.
 
 ```bash
 python3 -I build.py
